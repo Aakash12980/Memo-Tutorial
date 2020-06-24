@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateCard">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/create_card_appbar">
+            <com.google.android.material.appbar.MaterialToolbar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/create_appbar"
+                app:title="Create card"
+                app:navigationIcon="@drawable/back_btn"
+                app:menu="@menu/appbar_options"
+                app:titleTextColor="@android:color/white"/>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Title"
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            android:id="@+id/create_card_title"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/create_card_appbar"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minLines="2"
+            android:hint="Write sth...."
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            android:id="@+id/create_card_body"
+            android:textColor="@android:color/black"
+            android:layout_below="@+id/create_card_title"/>
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

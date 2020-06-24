@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">memo tutorial</string>
+    <string name="email">Enter your Email</string>
+    <string name="password">Enter your Password</string>
+    <string name="create_account">Don\'t have an account? Create one</string>
+
+</resources>

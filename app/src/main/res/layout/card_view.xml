@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="8dp"
+    app:cardCornerRadius="14dp"
+    android:id="@+id/card_list">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/card_title"
+            android:text="Card Title"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:textColor="@android:color/black"
+            android:ellipsize="end"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/card_body"
+            android:layout_below="@+id/card_title"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:maxLines="3"
+            android:minLines="3"
+            android:ellipsize="end"
+            android:text="Card Body goes here..."/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/card_date"
+            android:layout_below="@+id/card_body"
+            android:layout_alignParentRight="true"
+            android:paddingBottom="8dp"
+            android:ellipsize="end"
+            android:text="07/12/2020"/>
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

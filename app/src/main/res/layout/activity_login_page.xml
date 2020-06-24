@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginPage">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="16dp"
+            android:id="@+id/login_img"
+            android:src="@drawable/logo"
+            android:layout_centerHorizontal="true"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome,"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:layout_below="@+id/login_img"
+            android:textColor="@android:color/holo_blue_dark"
+            android:id="@+id/welcome_txt"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign in to continue"
+            android:layout_marginBottom="8dp"
+            android:textSize="16sp"
+            android:layout_below="@id/welcome_txt"
+            android:id="@+id/sign_in_continue"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/sign_in_continue"
+            android:id="@+id/text_field">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/email"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:id="@+id/login_email"
+                android:inputType="text"
+                android:hint="Email"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/password"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/login_password"
+                android:inputType="textPassword"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:hint="Password"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:id="@+id/login_btn"
+                android:backgroundTint="@android:color/holo_blue_dark"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_field"
+            android:text="@string/create_account"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:clickable="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/create_account"/>
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "251701397856",
+    "firebase_url": "https://memo-tutorial-3422d.firebaseio.com",
+    "project_id": "memo-tutorial-3422d",
+    "storage_bucket": "memo-tutorial-3422d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:251701397856:android:4b6e2c1536d2d363b57605",
+        "android_client_info": {
+          "package_name": "com.myapp.memotutorial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "251701397856-238lce4o3umq1g44237c3ffadi2q191b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.myapp.memotutorial",
+            "certificate_hash": "dfe906e8b22cee8832a2fdaa30c45c923872a581"
+          }
+        },
+        {
+          "client_id": "251701397856-cdeouquhckhj8hm6aam8bik19hns1shq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9xq97AuKejNhtbKpAa9vgH10dtv3_Fv8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "251701397856-cdeouquhckhj8hm6aam8bik19hns1shq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
